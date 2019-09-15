@@ -38,7 +38,7 @@ namespace Entidades
         /// <param name="num">numero a asignar</param>
         public Numero(string num)
         {
-            SetNumero(num);
+            SetNumero = num;
         }
 
         #endregion
@@ -49,9 +49,9 @@ namespace Entidades
         /// Asigna el valor al atributo
         /// </summary>
         /// <param name="numeroAux">Numero a asignar</param>
-        public void SetNumero(string num)
+        public string SetNumero
         {
-            this.numero = this.ValidarNumero(num);
+            set { this.ValidarNumero(value); }
         }
 
         #endregion
@@ -203,8 +203,6 @@ namespace Entidades
         }
 
         #endregion
-
-        
 
     }
 }
