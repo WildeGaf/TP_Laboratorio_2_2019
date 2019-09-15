@@ -51,7 +51,7 @@ namespace Entidades
         /// <param name="numeroAux">Numero a asignar</param>
         public string SetNumero
         {
-            set { this.ValidarNumero(value); }
+            set { this.numero = ValidarNumero(value); }
         }
 
         #endregion
@@ -110,8 +110,6 @@ namespace Entidades
             double resto;
             string auxString, resultado = "";
             int division = (int)numero;
-            if (numero > 0)
-            {
                 while (division >= 2)
                 {
                     resto = division % 2;
@@ -121,11 +119,6 @@ namespace Entidades
                     resultado = auxString + resultado;
                 }
                 resultado = "1" + resultado;
-            }
-            else
-            {
-                resultado = "0";
-            }
             return resultado;
         }
 
@@ -137,9 +130,11 @@ namespace Entidades
         public static string DecimalBinario(string numeroAux)
         {
             double numero;
-            string resultado;
-            double.TryParse(numeroAux, out numero);
-            resultado = DecimalBinario(numero);
+            string resultado = "Valor invalido";
+            if (double.TryParse(numeroAux, out numero)&& (numero > 0))
+            {
+                resultado = DecimalBinario(numero);
+            }
             return resultado;
         }
 

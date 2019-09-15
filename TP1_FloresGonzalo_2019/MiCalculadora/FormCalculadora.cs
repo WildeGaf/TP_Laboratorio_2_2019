@@ -117,21 +117,10 @@ namespace MiCalculadora
         /// <param name="e"></param>
         private void BtnConvertirABinario_Click(object sender, EventArgs e)
         {
-            double aux;
-            if (double.TryParse(lblResultado.Text, out aux))
-            {
-                if (aux > 0)
-                {
-                    lblResultado.Text = Numero.DecimalBinario(lblResultado.Text);
-                    btnConvertirABinario.Enabled = false;
-                    btnConvertirADecimal.Enabled = true;
-                }
-                else
-                {
-                    MessageBox.Show("No se puede convertir un numero Negativo");
-                    Limpiar();
-                }
-            }
+            lblResultado.Text = Numero.DecimalBinario(lblResultado.Text);
+            btnConvertirABinario.Enabled = false;
+            btnConvertirADecimal.Enabled = true;
+
         }
 
 
@@ -142,16 +131,12 @@ namespace MiCalculadora
         /// <param name="e"></param>
         private void BtnConvertirADecimal_Click(object sender, EventArgs e)
         {
-            double aux;
-            if (double.TryParse(lblResultado.Text, out aux))
+            int aux;
+            if (int.TryParse(lblResultado.Text, out aux))
             {
-                if (aux > 0)
-                {
-                    lblResultado.Text = Numero.BinarioDecimal(lblResultado.Text);
-                    btnConvertirABinario.Enabled = true;
-                    btnConvertirADecimal.Enabled = false;
-                }
-
+                lblResultado.Text = Numero.BinarioDecimal(lblResultado.Text);
+                btnConvertirABinario.Enabled = true;
+                btnConvertirADecimal.Enabled = false;
             }
         }
 
