@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -131,8 +131,8 @@ namespace MiCalculadora
         /// <param name="e"></param>
         private void BtnConvertirADecimal_Click(object sender, EventArgs e)
         {
-            int aux;
-            if (int.TryParse(lblResultado.Text, out aux))
+            long aux;
+            if (long.TryParse(lblResultado.Text, out aux))
             {
                 lblResultado.Text = Numero.BinarioDecimal(lblResultado.Text);
                 btnConvertirABinario.Enabled = true;
