@@ -120,7 +120,6 @@ namespace MiCalculadora
             lblResultado.Text = Numero.DecimalBinario(lblResultado.Text);
             btnConvertirABinario.Enabled = false;
             btnConvertirADecimal.Enabled = true;
-
         }
 
 
