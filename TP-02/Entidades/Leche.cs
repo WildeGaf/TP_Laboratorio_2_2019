@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 using System.Drawing;
 
-namespace Entidades_2018
+namespace Entidades_2019
 {
     class Leche : Producto
     {
@@ -19,11 +19,19 @@ namespace Entidades_2018
         /// <param name="marca"></param>
         /// <param name="patente"></param>
         /// <param name="color"></param>
-        public Leche(EMarca marca, string patente, ConsoleColor color)
-            : base(patente, marca, color)
+        public Leche(EMarca marca, string codigo, ConsoleColor color)
+            : base(marca, codigo, color)
         {
             tipo = ETipo.Entera;
         }
+
+        public Leche(EMarca marca, string codigo, ConsoleColor color,ETipo leche) : this(marca,codigo,color)
+        {
+            tipo = leche;
+        }
+
+
+
 
         /// <summary>
         /// Las leches tienen 20 calorías
@@ -41,13 +49,13 @@ namespace Entidades_2018
             StringBuilder sb = new StringBuilder();
 
             sb.AppendLine("LECHE");
-            sb.AppendLine(this);
-            sb.AppendLine("CALORIAS : {0}", this.CantidadCalorias);
+            sb.AppendLine(base.Mostrar());
+            sb.AppendLine("CALORIAS : "+ this.CantidadCalorias);
             sb.AppendLine("TIPO : " + this.tipo);
             sb.AppendLine("");
             sb.AppendLine("---------------------");
 
-            return sb;
+            return sb.ToString();
         }
     }
 }

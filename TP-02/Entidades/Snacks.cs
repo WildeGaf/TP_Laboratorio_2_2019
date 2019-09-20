@@ -8,8 +8,8 @@ namespace Entidades_2019
 {
     public class Snacks : Producto
     {
-        public Snacks(EMarca marca, string patente, ConsoleColor color)
-            : base(patente, marca, color)
+        public Snacks(EMarca marca, string codigo, ConsoleColor color)
+            : base(marca, codigo, color)
         {
         }
         /// <summary>
@@ -28,12 +28,12 @@ namespace Entidades_2019
             StringBuilder sb = new StringBuilder();
 
             sb.AppendLine("SNACKS");
-            sb.AppendLine(base);
-            sb.AppendLine("CALORIAS : {0}", this.CantidadCalorias);
+            sb.AppendLine(base.Mostrar());
+            sb.AppendLine("CALORIAS : "+ this.CantidadCalorias);
             sb.AppendLine("");
             sb.AppendLine("---------------------");
 
-            return sb;
+            return sb.ToString();
         }
     }
 }

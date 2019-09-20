@@ -30,7 +30,7 @@ namespace Entidades_2019
     /// <summary>
     /// ReadOnly: Retornará la cantidad de calorias del Producto
     /// </summary>
-    protected abstract short CantidadCalorias { get; }
+    protected virtual short CantidadCalorias { get; }
 
     /// <summary>
     /// Publica todos los datos del Producto.
