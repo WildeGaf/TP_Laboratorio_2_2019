@@ -10,31 +10,40 @@ namespace Entidades_2019
 {
     public class Leche : Producto
     {
+        #region Enumerador
         public enum ETipo { Entera, Descremada }
         ETipo tipo;
+        #endregion
+
+        #region Constructores
 
         /// <summary>
-        /// Por defecto, TIPO será ENTERA
+        /// Constructor de la clase Leche, por defecto, TIPO será ENTERA
         /// </summary>
         /// <param name="marca"></param>
         /// <param name="patente"></param>
         /// <param name="color"></param>
-        public Leche(EMarca marca, string codigo, ConsoleColor color)
-            : base(marca, codigo, color)
-        {
-            tipo = ETipo.Entera;
-        }
 
-        public Leche(EMarca marca, string codigo, ConsoleColor color,ETipo leche) : this(marca,codigo,color)
+        public Leche(EMarca marca, string codigo, ConsoleColor color)
+            : this(marca, codigo, color, ETipo.Entera) {}
+
+        /// <summary>
+        /// Constructor de la clase Leche
+        /// </summary>
+        /// <param name="marca"> Se le asigna marca, llamando al constructor padre </param>
+        /// <param name="Codigo">Se le asigna el codigo, llamando al constructor padre</param>
+        /// <param name="color">Se le asigna color, llamando al constructor padre</param>
+        /// <param name="Leche">Se le asigna leche, recibido por parametro </param>
+        public Leche(EMarca marca, string codigo, ConsoleColor color, ETipo leche) : base(marca, codigo, color)
         {
             tipo = leche;
         }
 
+        #endregion
 
-
-
+        #region Propiedades
         /// <summary>
-        /// Las leches tienen 20 calorías
+        /// Retorna 20 como cantidad de calorias de la clase Leche
         /// </summary>
         protected override short CantidadCalorias
         {
@@ -44,18 +53,25 @@ namespace Entidades_2019
             }
         }
 
+        #endregion
+
+        #region Metodos
+        /// <summary>
+        /// Retorna toda la informacion del objeto Leche
+        /// </summary>
         public override sealed string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
 
             sb.AppendLine("LECHE");
             sb.AppendLine(base.Mostrar());
-            sb.AppendLine("CALORIAS : "+ this.CantidadCalorias);
+            sb.AppendLine("CALORIAS : " + this.CantidadCalorias);
             sb.AppendLine("TIPO : " + this.tipo);
             sb.AppendLine("");
             sb.AppendLine("---------------------");
 
             return sb.ToString();
         }
+        #endregion
     }
 }

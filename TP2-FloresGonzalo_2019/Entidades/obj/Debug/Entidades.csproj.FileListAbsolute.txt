@@ -17,3 +17,8 @@ C:\Users\B9E22DC\Desktop\TP_Laboratorio_2_2019-master\TP-02\Entidades\obj\Debug\
 C:\Users\B9E22DC\Desktop\TP_Laboratorio_2_2019-master\TP-02\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\B9E22DC\Desktop\TP_Laboratorio_2_2019-master\TP-02\Entidades\obj\Debug\Entidades.dll
 C:\Users\B9E22DC\Desktop\TP_Laboratorio_2_2019-master\TP-02\Entidades\obj\Debug\Entidades.pdb
+C:\Users\e299df2\Desktop\TP_Laboratorio_2_2019-master\TP_Laboratorio_2_2019-master\TP2-FloresGonzalo_2019\Entidades\bin\Debug\Entidades.dll
+C:\Users\e299df2\Desktop\TP_Laboratorio_2_2019-master\TP_Laboratorio_2_2019-master\TP2-FloresGonzalo_2019\Entidades\bin\Debug\Entidades.pdb
+C:\Users\e299df2\Desktop\TP_Laboratorio_2_2019-master\TP_Laboratorio_2_2019-master\TP2-FloresGonzalo_2019\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\e299df2\Desktop\TP_Laboratorio_2_2019-master\TP_Laboratorio_2_2019-master\TP2-FloresGonzalo_2019\Entidades\obj\Debug\Entidades.dll
+C:\Users\e299df2\Desktop\TP_Laboratorio_2_2019-master\TP_Laboratorio_2_2019-master\TP2-FloresGonzalo_2019\Entidades\obj\Debug\Entidades.pdb

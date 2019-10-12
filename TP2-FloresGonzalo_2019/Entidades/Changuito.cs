@@ -11,30 +11,47 @@ namespace Entidades_2019
     /// </summary>
     public sealed class Changuito
     {
+        #region Atributos
+
         private List<Producto> productos;
         private int espacioDisponible;
+        #endregion
+        
+        #region Enumerador
+
         public enum ETipo
         {
             Dulce, Leche, Snacks, Todos
         }
 
-        #region "Constructores"
+        #endregion
+
+        #region Constructores
+        
+        /// <summary>
+        /// Constructor que crea una lista de productos.
+        /// </summary>
         private Changuito() 
         {
             this.productos = new List<Producto>();  
         }
 
+        /// <summary>
+        /// Constructor de la clase Dulce
+        /// </summary>
+        /// <param name="espacioDisponible"> Se le asigna el espacio disponible, recibido por parametro </param>
+        /// 
         public Changuito(int espacioDisponible) : this()
         {
             this.espacioDisponible = espacioDisponible;
         }
         #endregion
 
-        #region "Sobrecargas"
+        #region Sobrecargas
         /// <summary>
         /// Muestro el Changuito y TODOS los Productos
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Retorna un string con toda la informacion</returns>
         /// 
 
         public override string ToString()
@@ -45,7 +62,7 @@ namespace Entidades_2019
 
         #endregion
 
-        #region "Métodos"
+        #region Métodos
 
         /// <summary>
         /// Expone los datos del elemento y su lista (incluidas sus herencias)
@@ -53,7 +70,7 @@ namespace Entidades_2019
         /// </summary>
         /// <param name="c">Elemento a exponer</param>
         /// <param name="ETipo">Tipos de ítems de la lista a mostrar</param>
-        /// <returns></returns>
+        /// <returns>Retorna la informacion, solo del tipo del objeto </returns>
         public static string Mostrar(Changuito c, ETipo tipo)
         {
             StringBuilder sb = new StringBuilder();
@@ -86,13 +103,13 @@ namespace Entidades_2019
         }
         #endregion
 
-        #region "Operadores"
+        #region Operadores
         /// <summary>
         /// Agregará un elemento a la lista
         /// </summary>
         /// <param name="c">Objeto donde se agregará el elemento</param>
         /// <param name="p">Objeto a agregar</param>
-        /// <returns></returns>
+        /// <returns>Retorna el objeto con el producto agregado</returns>
         public static Changuito operator +(Changuito c, Producto p)
         {
             int encontrado = 0;
@@ -114,7 +131,7 @@ namespace Entidades_2019
         /// </summary>
         /// <param name="c">Objeto donde se quitará el elemento</param>
         /// <param name="p">Objeto a quitar</param>
-        /// <returns></returns>
+        /// <returns>Retorna el objeto con el producto eliminado</returns>
         public static Changuito operator -(Changuito c, Producto p)
         {
             int encontrado = 0;

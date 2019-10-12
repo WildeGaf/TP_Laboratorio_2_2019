@@ -8,12 +8,26 @@ namespace Entidades_2019
 {
     public class Snacks : Producto
     {
+        #region Constructores
+
+        /// <summary>
+        /// Constructor de la clase Snacks
+        /// </summary>
+        /// <param name="marca"> Se le asigna marca, llamando al constructor padre </param>
+        /// <param name="CodigoDeBarras">Se le asigna el codigo, llamando al constructor padre</param>
+        /// <param name="color">Se le asigna color, llamando al constructor padre</param>
+        /// 
         public Snacks(EMarca marca, string codigo, ConsoleColor color)
             : base(marca, codigo, color)
         {
         }
+
+        #endregion
+
+        #region Propiedades
+
         /// <summary>
-        /// Los snacks tienen 104 calorías
+        /// Retorna 104 correspondiente a las calorías de los Snacks
         /// </summary>
         protected override short CantidadCalorias
         {
@@ -23,6 +37,13 @@ namespace Entidades_2019
             }
         }
 
+        #endregion
+
+        #region Metodos
+
+        /// <summary>
+        /// Retorna toda la informacion del objeto Snacks
+        /// </summary>
         public override sealed string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
@@ -35,5 +56,6 @@ namespace Entidades_2019
 
             return sb.ToString();
         }
+        #endregion
     }
 }
