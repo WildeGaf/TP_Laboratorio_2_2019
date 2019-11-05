@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Excepciones;
 
-namespace Entidades
+namespace Clases_Abstractas
 {
   public abstract class Persona
   {
@@ -29,7 +29,7 @@ namespace Entidades
     public string Nombre
     {
       get { return nombre; }
-      set { nombre = value; }
+      set { nombre = ValidarNombreApellido(value); }
     }
 
     public ENacionalidad Nacionalidad
@@ -41,12 +41,12 @@ namespace Entidades
     public int Dni
     {
       get { return dni; }
-      set { dni = value; }
+      set { dni = ValidarDni(this.Nacionalidad,value); }
     }
 
     public string StringToDni
     {
-      set { dni = int.Parse(value); }
+      set { dni = ValidarDni(this.Nacionalidad,value); }
     }
 
     public Persona()
@@ -84,7 +84,7 @@ namespace Entidades
       }
       else if (nacionalidad is ENacionalidad.Extranjero)
       {
-        if (dato >= 9000000 && dato < 99999999)
+        if (dato >= 9000000 && dato <= 99999999)
           return dato;
       }
       throw new DniInvalidoException("Dni Invalido");
@@ -92,7 +92,7 @@ namespace Entidades
 
     private int ValidarDni(ENacionalidad nacionalidad, string dato)
     {
-      return ValidarDni(nacionalidad, StringToDni = dato);
+      return ValidarDni(nacionalidad, int.Parse(dato));
     }
 
     private string ValidarNombreApellido(string dato)

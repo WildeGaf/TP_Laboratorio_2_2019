@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{90373B88-9D2C-4290-BE2B-F69D29F460DF}</ProjectGuid>
+    <ProjectGuid>{F8E2EFB9-B44A-4DFD-BC1B-823624410071}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Excepciones</RootNamespace>
-    <AssemblyName>Excepciones</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>Clases_Instanciables</RootNamespace>
+    <AssemblyName>Clases Instanciables</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -40,12 +41,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SinProfesorException.cs" />
-    <Compile Include="AlumnoRepetidoException.cs" />
-    <Compile Include="NacionalidadInvalidException.cs" />
-    <Compile Include="ArchivoException.cs" />
-    <Compile Include="DniInvalidoException.cs" />
+    <Compile Include="Alumno.cs" />
+    <Compile Include="Universidad.cs" />
+    <Compile Include="Profesor.cs" />
+    <Compile Include="Jornada.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entidades\Clases Abstractas.csproj">
+      <Project>{e9ba66c4-e95e-4d50-90e5-e808881c2cf2}</Project>
+      <Name>Clases Abstractas</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Excepciones\Excepciones.csproj">
+      <Project>{90373b88-9d2c-4290-be2b-f69d29f460df}</Project>
+      <Name>Excepciones</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
