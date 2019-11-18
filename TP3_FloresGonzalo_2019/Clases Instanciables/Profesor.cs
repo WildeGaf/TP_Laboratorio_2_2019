@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Excepciones;
-using Clases_Abstractas;
+using EntidadesAbstractas;
 
 namespace Clases_Instanciables
 {
@@ -20,12 +20,13 @@ namespace Clases_Instanciables
 
         static Profesor()
         {
-            random = new Random();
+            
         }
 
         public Profesor(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad) : base(id, nombre, apellido, dni, nacionalidad)
         {
             claseDelDia = new Queue<Universidad.EClases>();
+            random = new Random();
             _randomClases();
 
         }
@@ -52,7 +53,11 @@ namespace Clases_Instanciables
         protected override string ParticiparEnClase()
         {
             StringBuilder sb = new StringBuilder();
-            sb.Append("Clases del dia" + claseDelDia.ToArray());
+            sb.AppendLine("\nCLASES DEL DIA: ");
+            foreach (Universidad.EClases clase in this.claseDelDia)
+            {
+                sb.AppendLine(clase.ToString());
+            }
             return sb.ToString();
         }
 

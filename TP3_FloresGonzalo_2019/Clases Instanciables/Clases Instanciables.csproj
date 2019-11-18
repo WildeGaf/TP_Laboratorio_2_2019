@@ -48,9 +48,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Entidades\Clases Abstractas.csproj">
+    <ProjectReference Include="..\Archivos\Archivos.csproj">
+      <Project>{a69ec03c-9c2e-4ac7-887f-dbc6720f6efa}</Project>
+      <Name>Archivos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entidades\EntidadesAbstractas.csproj">
       <Project>{e9ba66c4-e95e-4d50-90e5-e808881c2cf2}</Project>
-      <Name>Clases Abstractas</Name>
+      <Name>EntidadesAbstractas</Name>
     </ProjectReference>
     <ProjectReference Include="..\Excepciones\Excepciones.csproj">
       <Project>{90373b88-9d2c-4290-be2b-f69d29f460df}</Project>

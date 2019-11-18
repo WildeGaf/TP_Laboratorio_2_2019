@@ -1,0 +1,9 @@
+C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Entidades\bin\Debug\Entidades.dll
+C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Entidades\bin\Debug\Excepciones.dll
+C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Entidades\bin\Debug\Excepciones.pdb
+C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Entidades\obj\Debug\EntidadesAbstractas.csprojAssemblyReference.cache
+C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Entidades\obj\Debug\EntidadesAbstractas.csproj.CoreCompileInputs.cache
+C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Entidades\obj\Debug\EntidadesAbstractas.csproj.CopyComplete
+C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Entidades\obj\Debug\Entidades.dll
+C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Entidades\obj\Debug\Entidades.pdb

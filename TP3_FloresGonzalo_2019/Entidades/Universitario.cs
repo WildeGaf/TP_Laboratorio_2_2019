@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Excepciones;
 
-namespace Clases_Abstractas
+namespace EntidadesAbstractas
 {
    public abstract class Universitario : Persona
   {
@@ -24,7 +25,6 @@ namespace Clases_Abstractas
         protected virtual string MostrarDatos()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine("Universiario");
             sb.AppendLine("Nombre: "+ this.Nombre);
             sb.AppendLine("Apellido: "+ this.Apellido);
             sb.AppendLine("Nacionalidad: "+ this.Nacionalidad);
@@ -49,7 +49,7 @@ namespace Clases_Abstractas
         {
             if (( Equals(pg1) == Equals(pg2)) && (pg1.Dni == pg2.Dni || pg1.legajo == pg2.legajo))
             {
-                return true;
+                throw new AlumnoRepetidoException();
             }
             return false;
         }

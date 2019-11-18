@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using EntidadesAbstractas;
+using Excepciones;
+using System.Xml;
+using Archivos;
 
 namespace Clases_Instanciables
 {
@@ -53,11 +57,20 @@ namespace Clases_Instanciables
         }
 
 
-        private string MostrarDatos(Universidad uni) { }
+        private string MostrarDatos(Universidad uni)
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("Jornadas: ");
+            foreach (Jornada jornada in uni.Jornadas)
+            {
+                sb.AppendLine(jornada.ToString());
+            }
+            return sb.ToString();
+        }
 
         public override string ToString()
         {
-            return base.ToString();
+            return MostrarDatos(this);
         }
 
         public static bool operator ==(Universidad g, Alumno a)
@@ -88,17 +101,16 @@ namespace Clases_Instanciables
         }
         public static Profesor operator ==(Universidad u, EClases clase)
         {
-            int i = 0;
             foreach (Profesor profe in u.Instructores)
             {
                 if (profe == clase)
                 {
-                    break;
+                    return profe;
                 }
-                i++;
             }
-            return u.Instructores[i];
+            throw new SinProfesorException();
         }
+
         public static Profesor operator !=(Universidad u, EClases clase)
         {
             int i = 0;
@@ -112,55 +124,60 @@ namespace Clases_Instanciables
             }
             return u.Instructores[i];
         }
-        public static bool operator +(Universidad g, Alumno a)
+        public static Universidad operator +(Universidad g, Alumno a)
         {
-            foreach (Alumno aux in g.Alumnos)
+            if (g != a)
             {
-                if (aux == a)
+                g.Alumnos.Add(a);
+
+            }
+            return g;
+
+        }
+        public static Universidad operator +(Universidad g, Profesor i)
+        {
+                if (g != i)
                 {
-                    return false;
+                    g.Instructores.Add(i);
+                }
+            return g;
+        }
+
+        public static Universidad operator +(Universidad u, EClases clase)
+        {
+            Jornada jornada = new Jornada(clase, u == clase);
+            u.Jornadas.Add(jornada);
+            foreach (Alumno alumnoAux in u.Alumnos)
+            {
+                if (alumnoAux == clase)
+                {
+                    jornada += alumnoAux;
                 }
             }
-            g.Alumnos.Add(a);
-            return true;
+            return u;
         }
-        public static bool operator +(Universidad g, Profesor i)
+
+
+        public static bool Guardar(Universidad uni)
         {
-            foreach (Profesor aux in g.Instructores)
+            Xml<Universidad> xml = new Xml<Universidad>();
+            bool ret = false;
+            string path = String.Format("{0}\\Universidad.xml", Environment.GetFolderPath(Environment.SpecialFolder.Desktop));
+            ret = xml.Guardar(path, uni);
+            if (xml.Guardar(path, uni))
             {
-                if (aux == i)
-                {
-                    return false;
-                }
+                return true;
             }
-            g.Instructores.Add(i);
-            return true;
+            return false;
         }
 
-        public static bool operator +(Universidad u, EClases clase)
+        public Universidad Leer()
         {
-            bool resp = false;
-            Profesor profe = (u == clase);
-            Jornada jor = new Jornada(clase, profe);
-            foreach (Alumno aux in u.Alumnos)
-            {
-                if (aux == clase)
-                {
-                    jor.Alumnos.Add(aux);
-                    resp = true;
-                }
-            }
-            return resp;
+            Xml<Universidad> xml = new Xml<Universidad>();
+            Universidad g = new Universidad();
+            string path = String.Format("{0}\\Universidad.xml", Environment.GetFolderPath(Environment.SpecialFolder.Desktop));
+            xml.Leer(path, out g);
+            return g;
         }
-
-
-        public bool Guardar(Universidad uni)
-        {
-
-
-        }
-
-        public Universidad Leer() { }
-
     }
 }

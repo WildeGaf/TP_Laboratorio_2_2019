@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Excepciones;
-using Clases_Abstractas;
+using EntidadesAbstractas;
 
 namespace Clases_Instanciables
 {
@@ -35,10 +35,10 @@ namespace Clases_Instanciables
         protected override string MostrarDatos()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine("Alumno:");
+            sb.AppendLine("Alumno: \n");
             sb.AppendLine(base.MostrarDatos());
-            sb.AppendLine("Nombre: "+ this.claseQueToma);
-            sb.AppendLine("Nombre: "+ this.estadoCuenta);
+            sb.AppendLine("Clase que toma: "+ this.claseQueToma);
+            sb.AppendLine("Estado de cuenta: "+ this.estadoCuenta);
 
             return sb.ToString();
         }

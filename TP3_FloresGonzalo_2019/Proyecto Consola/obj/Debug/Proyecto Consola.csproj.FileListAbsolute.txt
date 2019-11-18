@@ -1,0 +1,16 @@
+C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Proyecto Consola\obj\Debug\Proyecto Consola.csprojAssemblyReference.cache
+C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Proyecto Consola\obj\Debug\Proyecto Consola.csproj.CoreCompileInputs.cache
+C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Proyecto Consola\bin\Debug\Proyecto Consola.exe.config
+C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Proyecto Consola\bin\Debug\Proyecto Consola.exe
+C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Proyecto Consola\bin\Debug\Proyecto Consola.pdb
+C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Proyecto Consola\bin\Debug\Archivos.dll
+C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Proyecto Consola\bin\Debug\Clases Instanciables.dll
+C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Proyecto Consola\bin\Debug\Entidades.dll
+C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Proyecto Consola\bin\Debug\Excepciones.dll
+C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Proyecto Consola\bin\Debug\Archivos.pdb
+C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Proyecto Consola\bin\Debug\Clases Instanciables.pdb
+C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Proyecto Consola\bin\Debug\Entidades.pdb
+C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Proyecto Consola\bin\Debug\Excepciones.pdb
+C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Proyecto Consola\obj\Debug\Proyecto Consola.csproj.CopyComplete
+C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Proyecto Consola\obj\Debug\Proyecto Consola.exe
+C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Proyecto Consola\obj\Debug\Proyecto Consola.pdb

@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Excepciones
 {
-    class AlumnoRepetidoException : Exception
+    public class AlumnoRepetidoException : Exception
     {
 
-        public AlumnoRepetidoException() : base() { }
+        public AlumnoRepetidoException() : base("Alumno repetido") { }
 
     }
 }

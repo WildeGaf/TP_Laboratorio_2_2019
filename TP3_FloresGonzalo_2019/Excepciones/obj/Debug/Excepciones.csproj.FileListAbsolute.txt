@@ -1,0 +1,6 @@
+C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Excepciones\obj\Debug\Excepciones.pdb

@@ -6,11 +6,17 @@ using System.Threading.Tasks;
 
 namespace Excepciones
 {
-    class SinProfesorException : Exception
+    public class SinProfesorException : Exception
     {
-        public SinProfesorException()
+        public SinProfesorException() : this("Error: Sin Profesor")
         {
 
         }
+
+        public SinProfesorException(string mensaje) : base(mensaje, null)
+        {
+
+        }
+
     }
 }
