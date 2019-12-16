@@ -1,0 +1,6 @@
+C:\Users\Gonza\Desktop\Flores.Gonzalo.TP4\Entidades\bin\Debug\Entidades.dll
+C:\Users\Gonza\Desktop\Flores.Gonzalo.TP4\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Gonza\Desktop\Flores.Gonzalo.TP4\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Gonza\Desktop\Flores.Gonzalo.TP4\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Gonza\Desktop\Flores.Gonzalo.TP4\Entidades\obj\Debug\Entidades.dll
+C:\Users\Gonza\Desktop\Flores.Gonzalo.TP4\Entidades\obj\Debug\Entidades.pdb

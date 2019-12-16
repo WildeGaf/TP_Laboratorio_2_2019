@@ -1,0 +1,13 @@
+C:\Users\Gonza\Desktop\Flores.Gonzalo.TP4\FormCorreo\bin\Debug\FormCorreo.exe.config
+C:\Users\Gonza\Desktop\Flores.Gonzalo.TP4\FormCorreo\bin\Debug\FormCorreo.exe
+C:\Users\Gonza\Desktop\Flores.Gonzalo.TP4\FormCorreo\bin\Debug\FormCorreo.pdb
+C:\Users\Gonza\Desktop\Flores.Gonzalo.TP4\FormCorreo\bin\Debug\Entidades.dll
+C:\Users\Gonza\Desktop\Flores.Gonzalo.TP4\FormCorreo\bin\Debug\Entidades.pdb
+C:\Users\Gonza\Desktop\Flores.Gonzalo.TP4\FormCorreo\obj\Debug\FormCorreo.csprojAssemblyReference.cache
+C:\Users\Gonza\Desktop\Flores.Gonzalo.TP4\FormCorreo\obj\Debug\FormCorreo.Form1.resources
+C:\Users\Gonza\Desktop\Flores.Gonzalo.TP4\FormCorreo\obj\Debug\FormCorreo.Properties.Resources.resources
+C:\Users\Gonza\Desktop\Flores.Gonzalo.TP4\FormCorreo\obj\Debug\FormCorreo.csproj.GenerateResource.cache
+C:\Users\Gonza\Desktop\Flores.Gonzalo.TP4\FormCorreo\obj\Debug\FormCorreo.csproj.CoreCompileInputs.cache
+C:\Users\Gonza\Desktop\Flores.Gonzalo.TP4\FormCorreo\obj\Debug\FormCorreo.csproj.CopyComplete
+C:\Users\Gonza\Desktop\Flores.Gonzalo.TP4\FormCorreo\obj\Debug\FormCorreo.exe
+C:\Users\Gonza\Desktop\Flores.Gonzalo.TP4\FormCorreo\obj\Debug\FormCorreo.pdb
