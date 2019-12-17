@@ -7,3 +7,10 @@ C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Archivos\bin
 C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Archivos\obj\Debug\Archivos.csproj.CopyComplete
 C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Archivos\obj\Debug\Archivos.dll
 C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Archivos\obj\Debug\Archivos.pdb
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP3_FloresGonzalo_2019\Archivos\bin\Debug\Archivos.dll
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP3_FloresGonzalo_2019\Archivos\bin\Debug\Archivos.pdb
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP3_FloresGonzalo_2019\Archivos\bin\Debug\Excepciones.dll
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP3_FloresGonzalo_2019\Archivos\bin\Debug\Excepciones.pdb
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP3_FloresGonzalo_2019\Archivos\obj\Debug\Archivos.csprojResolveAssemblyReference.cache
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP3_FloresGonzalo_2019\Archivos\obj\Debug\Archivos.dll
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP3_FloresGonzalo_2019\Archivos\obj\Debug\Archivos.pdb

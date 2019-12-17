@@ -62,9 +62,9 @@ namespace Entidades
                 Estado = (EEstado)i;
                 InformaEstado(this, new EventArgs());
                 Thread.Sleep(4000);
-
             }
 
+            PaqueteDAO.Insertar(this);
         }
         /// <summary>
         /// Dos paquetes serán iguales siempre y cuando su Tracking ID sea el mismo

@@ -11,3 +11,14 @@ C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Clases Insta
 C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Clases Instanciables\obj\Debug\Clases Instanciables.csproj.CopyComplete
 C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Clases Instanciables\obj\Debug\Clases Instanciables.dll
 C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Clases Instanciables\obj\Debug\Clases Instanciables.pdb
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP3_FloresGonzalo_2019\Clases Instanciables\bin\Debug\Clases Instanciables.dll
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP3_FloresGonzalo_2019\Clases Instanciables\bin\Debug\Clases Instanciables.pdb
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP3_FloresGonzalo_2019\Clases Instanciables\bin\Debug\Archivos.dll
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP3_FloresGonzalo_2019\Clases Instanciables\bin\Debug\Entidades.dll
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP3_FloresGonzalo_2019\Clases Instanciables\bin\Debug\Excepciones.dll
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP3_FloresGonzalo_2019\Clases Instanciables\bin\Debug\Archivos.pdb
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP3_FloresGonzalo_2019\Clases Instanciables\bin\Debug\Entidades.pdb
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP3_FloresGonzalo_2019\Clases Instanciables\bin\Debug\Excepciones.pdb
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP3_FloresGonzalo_2019\Clases Instanciables\obj\Debug\Clases Instanciables.csprojResolveAssemblyReference.cache
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP3_FloresGonzalo_2019\Clases Instanciables\obj\Debug\Clases Instanciables.dll
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP3_FloresGonzalo_2019\Clases Instanciables\obj\Debug\Clases Instanciables.pdb

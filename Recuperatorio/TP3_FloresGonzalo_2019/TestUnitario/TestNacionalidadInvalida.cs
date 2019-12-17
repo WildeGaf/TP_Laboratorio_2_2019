@@ -10,10 +10,16 @@ namespace TestUnitario
     public class TestNacionalidadInvalida
     {
         [TestMethod]
-        [ExpectedException(typeof(NacionalidadInvalidaException))]
         public void TestMethodNacionalidadInvalida()
         {
-            Alumno a8 = new Alumno(8, "Rodrigo", "Smith", "22236456", EntidadesAbstractas.Persona.ENacionalidad.Argentino, Universidad.EClases.Legislacion, Alumno.EEstadoCuenta.AlDia);
+            try
+            {
+                Alumno a8 = new Alumno(8, "Rodrigo", "Smith", "22226456", EntidadesAbstractas.Persona.ENacionalidad.Argentino, Universidad.EClases.Legislacion, Alumno.EEstadoCuenta.AlDia);
+            }
+            catch (NacionalidadInvalidaException)
+            {
+            }
+            
         }
     }
 }

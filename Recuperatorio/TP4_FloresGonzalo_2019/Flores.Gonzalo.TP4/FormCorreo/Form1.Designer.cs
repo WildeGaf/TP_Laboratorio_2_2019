@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.GrpPaquetes = new System.Windows.Forms.GroupBox();
             this.txtDireccion = new System.Windows.Forms.TextBox();
             this.lblDireccion = new System.Windows.Forms.Label();
@@ -43,10 +44,11 @@
             this.lblEntregado = new System.Windows.Forms.Label();
             this.lblEnViaje = new System.Windows.Forms.Label();
             this.lblIngresado = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.cmsListas = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.mostrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.GrpPaquetes.SuspendLayout();
             this.GrpEstado.SuspendLayout();
+            this.cmsListas.SuspendLayout();
             this.SuspendLayout();
             // 
             // GrpPaquetes
@@ -57,7 +59,7 @@
             this.GrpPaquetes.Controls.Add(this.MskTracking);
             this.GrpPaquetes.Controls.Add(this.btnAgregar);
             this.GrpPaquetes.Controls.Add(this.btnMostrar);
-            this.GrpPaquetes.Location = new System.Drawing.Point(512, 250);
+            this.GrpPaquetes.Location = new System.Drawing.Point(506, 282);
             this.GrpPaquetes.Name = "GrpPaquetes";
             this.GrpPaquetes.Size = new System.Drawing.Size(256, 147);
             this.GrpPaquetes.TabIndex = 22;
@@ -119,7 +121,7 @@
             // 
             // RtbResult
             // 
-            this.RtbResult.Location = new System.Drawing.Point(32, 250);
+            this.RtbResult.Location = new System.Drawing.Point(32, 282);
             this.RtbResult.Name = "RtbResult";
             this.RtbResult.Size = new System.Drawing.Size(430, 147);
             this.RtbResult.TabIndex = 21;
@@ -133,15 +135,16 @@
             this.GrpEstado.Controls.Add(this.lblEntregado);
             this.GrpEstado.Controls.Add(this.lblEnViaje);
             this.GrpEstado.Controls.Add(this.lblIngresado);
-            this.GrpEstado.Location = new System.Drawing.Point(32, -29);
+            this.GrpEstado.Location = new System.Drawing.Point(32, 12);
             this.GrpEstado.Name = "GrpEstado";
-            this.GrpEstado.Size = new System.Drawing.Size(730, 263);
+            this.GrpEstado.Size = new System.Drawing.Size(730, 264);
             this.GrpEstado.TabIndex = 18;
             this.GrpEstado.TabStop = false;
             this.GrpEstado.Text = "Estado Paquetes";
             // 
             // ListEntregado
             // 
+            this.ListEntregado.ContextMenuStrip = this.cmsListas;
             this.ListEntregado.FormattingEnabled = true;
             this.ListEntregado.Location = new System.Drawing.Point(453, 55);
             this.ListEntregado.Name = "ListEntregado";
@@ -191,42 +194,37 @@
             this.lblIngresado.TabIndex = 0;
             this.lblIngresado.Text = "Ingresado";
             // 
-            // label5
+            // cmsListas
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(328, 446);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
-            this.label5.TabIndex = 20;
-            this.label5.Text = "label5";
+            this.cmsListas.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mostrarToolStripMenuItem});
+            this.cmsListas.Name = "contextMenuStrip1";
+            this.cmsListas.Size = new System.Drawing.Size(116, 26);
             // 
-            // label4
+            // mostrarToolStripMenuItem
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(203, 467);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
-            this.label4.TabIndex = 19;
-            this.label4.Text = "label4";
+            this.mostrarToolStripMenuItem.Name = "mostrarToolStripMenuItem";
+            this.mostrarToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
+            this.mostrarToolStripMenuItem.Text = "Mostrar";
+            this.mostrarToolStripMenuItem.Click += new System.EventHandler(this.mostrarToolStripMenuItem_Click_2);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 487);
             this.Controls.Add(this.GrpPaquetes);
             this.Controls.Add(this.RtbResult);
             this.Controls.Add(this.GrpEstado);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.GrpPaquetes.ResumeLayout(false);
             this.GrpPaquetes.PerformLayout();
             this.GrpEstado.ResumeLayout(false);
             this.GrpEstado.PerformLayout();
+            this.cmsListas.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -247,8 +245,8 @@
         private System.Windows.Forms.Label lblEntregado;
         private System.Windows.Forms.Label lblEnViaje;
         private System.Windows.Forms.Label lblIngresado;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ContextMenuStrip cmsListas;
+        private System.Windows.Forms.ToolStripMenuItem mostrarToolStripMenuItem;
     }
 }
 

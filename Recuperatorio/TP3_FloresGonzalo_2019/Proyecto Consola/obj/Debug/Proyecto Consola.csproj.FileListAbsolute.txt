@@ -14,3 +14,17 @@ C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Proyecto Con
 C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Proyecto Consola\obj\Debug\Proyecto Consola.csproj.CopyComplete
 C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Proyecto Consola\obj\Debug\Proyecto Consola.exe
 C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\TP3_FloresGonzalo_2019\Proyecto Consola\obj\Debug\Proyecto Consola.pdb
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP3_FloresGonzalo_2019\Proyecto Consola\bin\Debug\Proyecto Consola.exe.config
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP3_FloresGonzalo_2019\Proyecto Consola\bin\Debug\Proyecto Consola.exe
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP3_FloresGonzalo_2019\Proyecto Consola\bin\Debug\Proyecto Consola.pdb
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP3_FloresGonzalo_2019\Proyecto Consola\bin\Debug\Archivos.dll
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP3_FloresGonzalo_2019\Proyecto Consola\bin\Debug\Clases Instanciables.dll
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP3_FloresGonzalo_2019\Proyecto Consola\bin\Debug\Entidades.dll
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP3_FloresGonzalo_2019\Proyecto Consola\bin\Debug\Excepciones.dll
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP3_FloresGonzalo_2019\Proyecto Consola\bin\Debug\Archivos.pdb
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP3_FloresGonzalo_2019\Proyecto Consola\bin\Debug\Clases Instanciables.pdb
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP3_FloresGonzalo_2019\Proyecto Consola\bin\Debug\Entidades.pdb
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP3_FloresGonzalo_2019\Proyecto Consola\bin\Debug\Excepciones.pdb
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP3_FloresGonzalo_2019\Proyecto Consola\obj\Debug\Proyecto Consola.csprojResolveAssemblyReference.cache
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP3_FloresGonzalo_2019\Proyecto Consola\obj\Debug\Proyecto Consola.exe
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP3_FloresGonzalo_2019\Proyecto Consola\obj\Debug\Proyecto Consola.pdb

@@ -24,3 +24,14 @@ C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\Recuperatorio\TP4_FloresGonzalo_201
 C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\Recuperatorio\TP4_FloresGonzalo_2019\Flores.Gonzalo.TP4\FormCorreo\obj\Debug\FormCorreo.csproj.CopyComplete
 C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\Recuperatorio\TP4_FloresGonzalo_2019\Flores.Gonzalo.TP4\FormCorreo\obj\Debug\FormCorreo.exe
 C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\Recuperatorio\TP4_FloresGonzalo_2019\Flores.Gonzalo.TP4\FormCorreo\obj\Debug\FormCorreo.pdb
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP4_FloresGonzalo_2019\Flores.Gonzalo.TP4\FormCorreo\bin\Debug\FormCorreo.exe.config
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP4_FloresGonzalo_2019\Flores.Gonzalo.TP4\FormCorreo\bin\Debug\FormCorreo.exe
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP4_FloresGonzalo_2019\Flores.Gonzalo.TP4\FormCorreo\bin\Debug\FormCorreo.pdb
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP4_FloresGonzalo_2019\Flores.Gonzalo.TP4\FormCorreo\bin\Debug\Entidades.dll
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP4_FloresGonzalo_2019\Flores.Gonzalo.TP4\FormCorreo\bin\Debug\Entidades.pdb
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP4_FloresGonzalo_2019\Flores.Gonzalo.TP4\FormCorreo\obj\Debug\FormCorreo.csprojResolveAssemblyReference.cache
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP4_FloresGonzalo_2019\Flores.Gonzalo.TP4\FormCorreo\obj\Debug\FormCorreo.Form1.resources
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP4_FloresGonzalo_2019\Flores.Gonzalo.TP4\FormCorreo\obj\Debug\FormCorreo.Properties.Resources.resources
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP4_FloresGonzalo_2019\Flores.Gonzalo.TP4\FormCorreo\obj\Debug\FormCorreo.csproj.GenerateResource.Cache
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP4_FloresGonzalo_2019\Flores.Gonzalo.TP4\FormCorreo\obj\Debug\FormCorreo.exe
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP4_FloresGonzalo_2019\Flores.Gonzalo.TP4\FormCorreo\obj\Debug\FormCorreo.pdb

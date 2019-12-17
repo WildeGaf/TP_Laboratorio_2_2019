@@ -128,5 +128,17 @@ namespace FormCorreo
         {
             this.MostrarInformacion<List<Paquete>>((IMostrar<List<Paquete>>)correo);
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            this.Text = "Gonzalo.Flores.2D";
+            this.cmsListas.Visible = true;
+        }
+
+        private void mostrarToolStripMenuItem_Click_2(object sender, EventArgs e)
+        {
+            this.MostrarInformacion<Paquete>((IMostrar<Paquete>)ListEntregado.SelectedItem);
+        }
+
     }
 }

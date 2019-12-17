@@ -10,3 +10,8 @@ C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\Recuperatorio\TP4_FloresGonzalo_201
 C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\Recuperatorio\TP4_FloresGonzalo_2019\Flores.Gonzalo.TP4\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\Recuperatorio\TP4_FloresGonzalo_2019\Flores.Gonzalo.TP4\Entidades\obj\Debug\Entidades.dll
 C:\Users\Gonza\Desktop\TP_Laboratorio_2_2019\Recuperatorio\TP4_FloresGonzalo_2019\Flores.Gonzalo.TP4\Entidades\obj\Debug\Entidades.pdb
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP4_FloresGonzalo_2019\Flores.Gonzalo.TP4\Entidades\bin\Debug\Entidades.dll
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP4_FloresGonzalo_2019\Flores.Gonzalo.TP4\Entidades\bin\Debug\Entidades.pdb
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP4_FloresGonzalo_2019\Flores.Gonzalo.TP4\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP4_FloresGonzalo_2019\Flores.Gonzalo.TP4\Entidades\obj\Debug\Entidades.dll
+C:\Users\e2ad3d9\Desktop\Gonza\TP_Laboratorio_2_2019-master\Recuperatorio\TP4_FloresGonzalo_2019\Flores.Gonzalo.TP4\Entidades\obj\Debug\Entidades.pdb

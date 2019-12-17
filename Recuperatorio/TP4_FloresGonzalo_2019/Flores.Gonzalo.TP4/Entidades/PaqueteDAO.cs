@@ -7,37 +7,38 @@ using System.Data;
 using System.Data.SqlClient;
 namespace Entidades
 {
-    public class PaqueteDAO
+    public static class PaqueteDAO
     {
-        private SqlCommand comando;
-        private SqlConnection conexion;
-        public PaqueteDAO()
+        private static SqlCommand comando;
+        private static SqlConnection conexion;
+        static PaqueteDAO()
         {
-            conexion = new SqlConnection();
-            comando = new SqlCommand();
+            PaqueteDAO.conexion = new SqlConnection("Data Source = GONZALO-PC; Initial Catalog = correo-sp-2017; Integrated Security = True");
+            PaqueteDAO.comando = new SqlCommand();
+            PaqueteDAO.comando.CommandType = CommandType.Text;
+            PaqueteDAO.comando.Connection = PaqueteDAO.conexion;
         }
         /// <summary>
         /// guarda los datos de los paquetes en la base de datos
         /// </summary>
         /// <param name="p"></param>
         /// <returns></returns>
-        public bool Insetar(Paquete p)
+        public static bool Insertar(Paquete p)
         {
-            string query = $"INSERT INTO direccionEntrega = {p.DireccionEntrega} , alumno = Flores Gonzalo " +
-                $", trackingID = {p.TrackingID} FROM PK_Paquetes";
+            string query = "INSERT INTO dbo.Paquetes (direccionEntrega, trackingID, alumno) VALUES ('" + p.DireccionEntrega + "', '" + p.TrackingID + "','Gonzalo Flores')";
+            
+            PaqueteDAO.comando.CommandText = query;
+            
             try
             {
                 conexion.Open();
-                comando = new SqlCommand(query, conexion);
-                if (comando.ExecuteNonQuery() > 0)
-                {
-                    return true;
-                }
-                return false;
+                PaqueteDAO.comando.ExecuteNonQuery();
+
+                return true;
             }
             catch (Exception)
             {
-                throw;
+                return false;
             }
             finally
             {
